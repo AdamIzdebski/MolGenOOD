@@ -1,3 +1,3 @@
-from .fetch_smiles import fetch_smiles
+from .fetch_zinc import fetch_zinc
 
-__all__ = ["fetch_smiles"]
+__all__ = ["fetch_zinc"]
