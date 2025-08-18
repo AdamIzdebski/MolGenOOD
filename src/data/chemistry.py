@@ -1,6 +1,8 @@
 import datamol as dm
 from typing import Optional
 import warnings
+from rdkit import RDLogger
+RDLogger.DisableLog('rdApp.*')
 
 
 def standardize_smiles(smiles: str) -> Optional[str]:
